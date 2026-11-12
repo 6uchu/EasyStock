@@ -33,17 +33,4 @@
 
 ### 설치 및 실행
 
-```bash
-# 레포지토리 클론
-git clone [https://github.com/6uchu/EasyStock.git](https://github.com/6uchu/EasyStock.git)
-cd EasyStock
-
-# 프론트엔드 종속성 설치 및 실행
-npm install
-npm run dev
-
-# 백엔드 가상환경 설정 및 실행 (FastAPI)
-python -m venv venv
-source venv/bin/activate  # Windows: venv\Scripts\activate
-pip install -r requirements.txt
-uvicorn main:app --reload
+portpolio-app README 참고
